@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+	max-width: 100%;
+}
+.flex {
+	display: flex;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    font-size: 50px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    font-size: 40px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+#p1{
+    margin: 3% 25%;
+    font-size: 18px;
+}
+.p2{
+    font-size: 85px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    margin: 0;
+}
+.p3{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.pFooter{
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+.footer{
+    background-color: hsl(192, 100%, 9%);
+}
+#footer1{
+    padding-right: 20%;
+}
+.margensF1{
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+#phone{
+    margin-left: 5%;
+}
+.centralizarTexto{
+    text-align: center;
+}
+.centralizarItens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxModel{
+    width: 100%;
+    box-sizing: border-box;
+}
+#mockup{
+    width: 75%;
+    margin-top: 8%;
+}
+.divs_duplas{
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+.divs_duplas_footer{
+    width: 50%;
+    box-sizing: border-box;
+}
+.divExterna{
+    display: inline-block; 
+    position: relative;
+    margin-top: 25%;
+    margin-bottom: 20%; 
+}
+.icones{
+    position: absolute; 
+    bottom: 100%; left: 0;
+    width: 18%;
+}
+#icone2{
+    width: 15%;
+}
+.imagens{
+    width: 75%;
+}
+.corSections{
+    background-color: hsl(207, 100%, 98%);
+}
+#botao {
+    border-radius: 2em;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(322, 100%, 66%);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    color: hsl(322, 100%, 66%);
+    height: 100%;
+    width: 150px;
+}
+.botoesSections{
+    border-radius: 2em;
+    box-shadow: -1px 5px 7px 1px hsl(0, 2%, 78%);
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.botao {
+    
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.botao:hover{
+    background-color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+#btnSubscribe{
+    border-radius: 5px;
+    height: 55px;
+    width: 170px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: auto;
+}
+#campo{
+    border: solid 1px #fff;
+    border-radius: 5px;
+    height: 45px;
+    width: 60%;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+#campo:hover{
+    border: solid 1px hsl(0, 100%, 63%);
+}
+#textoF2{
+    margin: 0 30% 10% 0;
+}
+.margens{
+    margin-top: 3%; 
+    margin-bottom: 3%;
+}
+#sectionD{
+    margin-top: 10%; 
+    margin-bottom: 12%;
+}
+#margensSection2{
+    margin-top: 10%; 
+}
+#newsletter{
+    font-size: 25px; 
+    font-weight: 600; 
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1440px){
+    #sessao1{
+        margin-top: 15%;
+    }
+    .sectionsAeC{
+        padding: 0 4% 0 8%;
+    }
+    #sectionB{
+        padding: 0 8% 0 4%;
+    }
+    .imagensAeC{
+        width: 75%;
+        margin-right: 10%;
+    }
+    .imagemB{
+        width: 75%;
+        margin-left: 10%;
+    }
+    #footer2{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .flex1{
+        flex-direction: column-reverse;
+    }
+    .flex2{
+        flex-direction: column;
+    }
+    .divs_duplas{
+        width: 100%;
+        text-align: center;
+    }
+    .divs_duplas_footer{
+        width: 100%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #h2{
+        margin: 0 10%;
+    }
+    #logo{
+        height: 45%;
+    }
+    #botao {
+        font-size: 10px;
+        font-weight: 400;
+        height: 60%;
+        width: 85px;
+    }
+    .botao {
+        height: 40px;
+        width: 200px;
+        font-size: 12px;
+        margin: 10% 0% 20% 0%;
+    }
+    p{
+        font-size: 15px;
+        margin: 4% 5%;
+    }
+    #p1{
+        margin: 4% 5%;
+        font-size: 15px;
+    }
+    #sessao1{
+        margin-top: 30%;
+    }
+    .p2{
+        font-size: 60px;
+    }
+    .imagens{
+        margin: 0;
+        width: 60%;
+    }
+    .sectionsAeC{
+        padding: 0 4%;
+    }
+    #sectionB{
+        padding: 0 4%;
+    }
+    #sectionD{
+        margin-top: 12%; 
+        margin-bottom: 45%;
+    }
+    .margens{
+        margin-top: 10%; 
+        margin-bottom: 10%;
+    }
+    .margensTextos{
+        margin-top: 5%; 
+        margin-bottom: 20%;
+    }
+    #margensSection2{
+        margin-top: 40%; 
+    }
+    .p3{
+        font-size: 16px;
+    }
+    .divExterna{
+        margin-top: 30%;
+        margin-bottom: 0%; 
+    }
+    #footer1{
+        padding-right: 0%;
+    }
+    .margensF1{
+        margin-bottom: 8%;
+        margin-left: 0%;
+    }
+    #phone{
+        margin-left: 0%;
+    }
+    .form{
+        flex-direction: column;
+    }
+    #campo{
+        width: 96%;
+    }
+    #footer2{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #textoF2{
+        margin: 0 0 10% 0;
+    }
+    #newsletter{
+        font-size: 20px; 
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
